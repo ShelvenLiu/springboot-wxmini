@@ -1,0 +1,27 @@
+<view class="content">
+  <form bindsubmit="doLogin">
+    <view class="account" >
+      <image class="nameImage" src="../../images/username.png"></image>
+      <view class="title">账号</view>
+      <view class="num"><input name="username" placeholder="用户名/邮箱/手机号" placeholder-style="color:#999999;"/></view>
+    </view>
+    <view class="hr"></view>
+    <view class="account">
+      <image class="keyImage" src="../../images/password.png"></image>
+      <view class="title">密码</view>
+      <view class="num"><input name="password" placeholder="请输入密码" password placeholder-style="color:#999999;"/></view>
+      
+    </view>
+    <view class="hr"></view>
+    <button class="btn1" form-type='submit' type="primary">登录</button>
+  </form>
+  <button class="btn2" type="warn" bindtap="goRegister">没有账号？点击注册</button>
+</view>
+  
+<view>
+    
+    <button class="WxLogin"  open-type='getUserInfo' bindgetuserinfo='goWxLogin' >
+      <image class="wxpng" src="../../images/wx.png"></image>
+      <view class="Wxtxt">微信登录</view>
+    </button>
+</view>

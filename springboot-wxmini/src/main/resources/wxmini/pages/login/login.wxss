@@ -1,0 +1,56 @@
+.content{
+  margin-top: 40px;
+}
+.account{
+   display: flex;
+   flex-direction: row;
+   padding-left: 20px;
+   padding-top: 20px;
+   padding-bottom: 10px;
+   width: 90%;
+}
+.title{
+   margin-right: 30px;
+   font-weight: bold;
+}
+.hr{
+  border: 1px solid #cccccc;
+  opacity: 0.2;
+  width: 90%;
+  margin: 0 auto;
+  background-color: red;
+}
+.btn1{
+  width: 90%;
+  margin-top:40px;
+  color: #999999;
+}
+.btn2{
+  width: 90%;
+  margin-top:10px;
+  color: #999999;
+}
+.wxpng{
+  height: 150rpx;
+  width: 150rpx;
+  text-align: center;
+  margin: 0 auto;
+}
+.WxLogin{
+  background-color: transparent;
+  margin-top:2em;
+  border-color: transparent;
+
+}
+button::after{
+  border:0
+}
+.Wxtxt{
+  margin-top: -1.5em;
+  font-size: 0.8em;
+}
+.nameImage, .keyImage {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}

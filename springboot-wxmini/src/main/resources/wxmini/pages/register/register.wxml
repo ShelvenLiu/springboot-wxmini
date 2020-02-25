@@ -1,0 +1,20 @@
+<!--pages/register/register.wxml-->
+<view class="content">
+  <form bindsubmit="doRegister">
+    <view class="account">
+      <image class="nameImage" src="../../images/username.png"></image>
+      <view class="title">账号</view>
+      <view class="num"><input  placeholder="用户名/邮箱/手机号" placeholder-style="color:#999999;" name="username"/></view>
+    </view>
+
+    <view class="hr"></view>
+    <view class="account">
+      <image class="keyImage" src="../../images/password.png"></image>
+      <view class="title">密码</view>
+      <view class="num"><input  placeholder="请输入密码" password placeholder-style="color:#999999;" name="password"/></view>
+      
+    </view>
+    <view class="hr"></view>
+    <button class="btn" form-type='submit' type="primary">注册</button>
+  </form>
+</view>

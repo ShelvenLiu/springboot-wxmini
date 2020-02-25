@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register"
+    
+ 
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "登录",
+    "navigationBarTextStyle": "black"
+  },
+  "debug":true,
+  "sitemapLocation": "sitemap.json"
+}
